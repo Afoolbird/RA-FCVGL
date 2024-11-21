@@ -1,7 +1,7 @@
 # DA-FCVGL
 This repository provides the code for "**Digging Into Informative Regions with Adaptive Gradient Modulation for Fine-grained Cross View Geo-localization**
 
-<img src="/Overview.png"/>
+<img src="/figs/Overview.png"/>
 
 ## Dataset
 Please prepare [VIGOR](https://github.com/Jeff-Zilence/VIGOR) and [CVACT](https://github.com/Liumouliu/OriCNN). You may need to modify specific path in dataloader.
