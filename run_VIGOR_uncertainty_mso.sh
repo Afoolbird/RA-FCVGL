@@ -1,0 +1,3 @@
+python -u train_baseline_get_uncert_conxt.py --lr 0.00005 --batch_size 4 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0  --epochs 50 --start-epoch 0 --save_path ./result_vigor_mso --op sam --wd 0.03 --dataset vigor --cos --dim 3072 --asam --rho 2.5  --log_path 'your_log_path' --sim_weight 1.0 --out_weight 1.0 --mil_weight 10.0 
+
+python -u train_baseline_get_conflict_conxt.py --lr 0.00005 --batch_size 4 --dist-url 'tcp://localhost:10001'  --epochs 50 --start-epoch 0 --save_path 'your_save_path' --op sam --wd 0.03 --dataset vigor --cos --dim 3072 --asam --rho 2.5  --log_path 'your_log_path' --sim_weight 1.0 --out_weight 1.0 --mil_weight 10.0 --resume ./result_vigor_mso/model_best.pth.tar --gpu 0
