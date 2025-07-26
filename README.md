@@ -1,4 +1,4 @@
-# RA-FCVGL
+# RAFCVGL
 This repository provides the code for **"Relevant Regions Mining with Adaptive Gradient Modulation for Fine-grained Cross View Geo-localization"**
 
 <img src="/overview.jpg"/>
